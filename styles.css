@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-direction: column;
+}
+
+.container img {
+  align-self: center;
+  border-radius: 200px;
+  object-fit: none;
+  height: 400px;
+  width: 400px;
+  padding-bottom: 30px;
+}
+
+p,
+a {
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:hover {
+  letter-spacing: 10px;
+  transition: all 1s ease;
+}
